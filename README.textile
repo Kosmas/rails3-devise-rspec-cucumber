@@ -41,7 +41,7 @@ h2. Dependencies
 Before generating your application, you will need:
 
 * The Ruby language (version 1.9.3 or 2.0.0)
-* The Rails gem (version 3.2.14)
+* The Rails gem (version 4.0.0)
 
 See the article "Installing Rails":http://railsapps.github.io/installing-rails.html for advice about updating Rails and your development environment.
 
@@ -58,7 +58,7 @@ h3. Clone
 If you want to copy and customize the app with changes that are only useful for your own project, you can clone the GitHub repo. You'll need to search-and-replace the project name throughout the application. You probably should generate the app instead (see below). To clone:
 
 <pre>
-$ git clone git://github.com/RailsApps/rails3-devise-rspec-cucumber.git
+$ git clone git://github.com/RailsApps/rails4-devise-rspec-cucumber.git
 </pre>
 
 You'll need "git":http://git-scm.com/ on your machine. See "Rails and Git":http://railsapps.github.io/rails-git.html.
@@ -70,14 +70,14 @@ If you want to use the project as a starter app, use the "Rails Composer":http:/
 To build the example application, run the command:
 
 <pre>
-$ rails new rails3-devise-rspec-cucumber -m https://raw.github.com/RailsApps/rails-composer/master/composer.rb -T
+$ rails new rails4-devise-rspec-cucumber -m https://raw.github.com/RailsApps/rails-composer/master/composer.rb -T
 </pre>
 
 Use the @-T@ flag to skip Test::Unit files.
 
 The @$@ character indicates a shell prompt; don't include it when you run the command.
 
-This creates a new Rails app named @rails3-devise-rspec-cucumber@ on your computer. You can use a different name if you wish.
+This creates a new Rails app named @rails4-devise-rspec-cucumber@ on your computer. You can use a different name if you wish.
 
 You'll see a prompt:
 
@@ -87,13 +87,13 @@ question  Install an example application?
       2)  membership/subscription/saas
       3)  rails-prelaunch-signup
       4)  rails3-bootstrap-devise-cancan
-      5)  rails3-devise-rspec-cucumber
+      5)  rails4-devise-rspec-cucumber
       6)  rails3-mongoid-devise
       7)  rails3-mongoid-omniauth
       8)  rails3-subdomains
 </pre>
 
-Choose *rails3-devise-rspec-cucumber*. The Rails Composer tool may give you other options (other choices may have been added since these notes were written).
+Choose *rails4-devise-rspec-cucumber*. The Rails Composer tool may give you other options (other choices may have been added since these notes were written).
 
 The application generator template will ask you for additional preferences:
 
@@ -321,7 +321,7 @@ Please send the author a message, create an issue, or submit a pull request if y
 
 h2. Troubleshooting
 
-Problems? Check the "issues":https://github.com/RailsApps/rails3-devise-rspec-cucumber/issues.
+Problems? Check the "issues":https://github.com/RailsApps/rails4-devise-rspec-cucumber/issues.
 
 h4. Problems with  "Certificate Verify Failed"
 
@@ -347,7 +347,7 @@ h2. Contributing
 
 If you make improvements to this application, please share with others.
 
-Send the author a message, create an "issue":http://github.com/RailsApps/rails3-devise-rspec-cucumber/issues, or fork the project and submit a pull request.
+Send the author a message, create an "issue":http://github.com/RailsApps/rails4-devise-rspec-cucumber/issues, or fork the project and submit a pull request.
 
 If you add functionality to this application, create an alternative implementation, or build an application that is similar, please contact me and I'll add a note to the README so that others can find your work.
 
