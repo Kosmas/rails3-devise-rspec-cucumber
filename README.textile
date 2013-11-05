@@ -1,6 +1,6 @@
 h1. !http://railsapps.github.io/images/rails-36x36.jpg(Rails Application for Devise with RSpec and Cucumber)! Rails App for Devise with RSpec and Cucumber
 
-Rails 3.2 example application shows how to use "Devise":http://github.com/plataformatec/devise with "RSpec":http://rspec.info/ and "Cucumber":http://cukes.info/.
+Rails 4.x example application shows how to use "Devise":http://github.com/plataformatec/devise with "RSpec":http://rspec.info/ and "Cucumber":http://cukes.info/.
 
 * "Devise":http://github.com/plataformatec/devise gives you ready-made authentication and user management.
 * "RSpec":http://rspec.info/  is a popular alternative to the Test::Unit testing framework.
